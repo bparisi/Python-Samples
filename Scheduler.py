@@ -195,6 +195,7 @@ def metaWrapper():
     '''Wrapped around the whole program for running debug mode multiple times'''
     retVal = preMain()
     while retVal: retVal = preMain()
+    temp = input("Press any key to end")
     print("\nGoodbye.")
 
 def preMain():
